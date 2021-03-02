@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Login Form</title>
+		<link href="css/login.css" rel="stylesheet">
+		<!-- <link href="css/bootstrap3.css" rel="stylesheet"> -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	</head>
+	<body>
+  <div class="login-SignIn">
+  	<div class="login-btn">
+      <i class="fa fa-user login-icon" style="font-size:48px;"></i>
+  	</div>
+	  <div class="modal-box mt-5 modal" id="modal-box">
+      <i class="fa fa-close close-btn" style="font-size:30px"></i>
+      <!-- <div class="close-btn">X</div> -->
+      <div class="form-container sign-up-container mt-2">
+        <form action="#" class="login-modal-form">
+          <h1 class="font-weight-bold">Create Account</h1>
+          <div class="social-container">
+            <a href="#" class="social"><i class="fa fa-facebook"></i></a>
+            <a href="#" class="social"><i class="fa fa-google-plus"></i></a>
+            <a href="#" class="social"><i class="fa fa-linkedin"></i></i></a>
+          </div>
+          <input type="text" placeholder="Name" class="login-form-input"/>
+          <input type="email" placeholder="Email" class="login-form-input" />
+          <input type="password" placeholder="Password" class="login-form-input"/>
+          <button class="btn btn-info btn-rounded">Sign up</button>
+        </form>
+      </div>
+
+      <div class="form-container sign-in-container">
+        <form action="#" class="login-modal-form">
+          <h1 class="font-weight-bold">Sign in</h1>
+          <div class="social-container">
+            <a href="#" class="social"><i class="fa fa-facebook"></i></a>
+            <a href="#" class="social"><i class="fa fa-google-plus"></i></i></a>
+            <a href="#" class="social"><i class="fa fa-linkedin"></i></i></a>
+          </div>
+          <span>or use your account</span>
+          <input type="email" placeholder="Email"  class="login-form-input"/>
+          <input type="password" placeholder="Password" class="login-form-input"/>
+          <button class="btn btn-info btn-rounded ">Sign In</button>
+        </form>
+      </div>
+
+      <div class="overlay-container">
+        <div class="overlay">
+          <div class="overlay-panel overlay-left">
+            <h1 class="font-weight-bold">Good to see you!<h1>
+            <p>You already have an account? <br>Sign in!</p>
+            <button class="but" id="signIn">Sign In</button>
+          </div>
+          <div class="overlay-panel overlay-right">
+            <h1 class="font-weight-bold">Hello, Friend!</h1>
+            <p>You don't have account yet? Don't worry! You still can join us</p>
+            <button class="but" id="signUp">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!--login & Sign Up-->
+	</body>
+	<script src='js/login.js'></script>
+</html>
+
